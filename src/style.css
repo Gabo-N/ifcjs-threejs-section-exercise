@@ -219,7 +219,7 @@ Components
 }
 
 .card:hover .model_frame {
-    transform: translateY(0.5rem);
+    transform: translateY(-0.25rem);
     transition: transform 0.4s;
 }
 
@@ -315,7 +315,7 @@ html {
             grid-row: span 1;
             display: grid;
             /* grid-template-rows: auto; */
-            grid-gap: 1rem;
+            grid-gap: 0.5rem;
             height: 100%;
         }
         
